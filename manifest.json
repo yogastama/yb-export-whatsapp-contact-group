@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Export Group Whatsapp",
+    "description": "This extension will export whatsapp contact to json",
+    "version": "1.0",
+  
+    "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "<all_urls>"
+    ],
+    "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+  }
